@@ -2,12 +2,10 @@
 
 namespace br\com\rodrigo\biblioteca\entidades
 {
-
 	class Genero {
-
+		
 		private $id;
 		private $nome;
-
 
 		public function setId($id) {
 			$this->id = $id;
@@ -24,7 +22,5 @@ namespace br\com\rodrigo\biblioteca\entidades
 		public function getNome() {
 			return $this->nome;
 		}
-
-
 	}
 }

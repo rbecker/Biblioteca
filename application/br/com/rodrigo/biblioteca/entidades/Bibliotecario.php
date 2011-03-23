@@ -2,12 +2,10 @@
 
 namespace br\com\rodrigo\biblioteca\entidades
 {
-
 	class Bibliotecario extends Pessoa {
 
 		private $login;
 		private $senha;
-		private $multaDevolucao;
 	
 
 		public function setLogin($login) {
@@ -29,17 +27,5 @@ namespace br\com\rodrigo\biblioteca\entidades
 		
 			return $this->senha;
 		}
-		
-		public function setMultaDevolucao($devolucao) {
-			
-			$this->multaDevolucao = $devolucao;
-		}
-	
-		public function getMultaDevolucao() {
-			
-			return $this->multaDevolucao;
-
-		}
-
 	}
 }

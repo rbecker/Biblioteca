@@ -11,6 +11,9 @@ namespace br\com\rodrigo\biblioteca\entidades
 		private $edicao;
 		private $paginas;
 		private $quantidade;
+		private $editora;
+		private $autor;
+		private $genero;
 
 
 		public function setId($id) {
@@ -59,6 +62,27 @@ namespace br\com\rodrigo\biblioteca\entidades
 
 		public function getQuantidade() {
 			return $this->quantidade;
+		}
+		public function setEditora($editora) {
+			$this->editora = $editora;
+		}
+
+		public function getEditora() {
+			return $this->editora;
+		}
+		public function setAutor($autor) {
+			$this->autor = $autor;
+		}
+
+		public function getAutor() {
+			return $this->autor;
+		}
+		public function setGenero($genero) {
+			$this->genero = $genero;
+		}
+
+		public function getGenero() {
+			return $this->genero;
 		}
 
 	}

@@ -4,21 +4,17 @@ namespace br\com\rodrigo\biblioteca\entidades
 {
 
 	class Usuario extends Pessoa {
-
-		private $Cnpj;
+		private $cpf;
 	
-	
-		public function setCnpj($cnpj) {
+		public function setCpf($cpf) {
 			
-			$this->Cnpj = $cnpj;
+			$this->cpf = $cpf;
 		}
 	
-		public function getCnpj() {
+		public function getCpf() {
 			
-			return $this->Cnpj;
+			return $this->cpf;
 
 		}
-		
-
 	}
 }

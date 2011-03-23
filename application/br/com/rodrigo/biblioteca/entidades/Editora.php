@@ -2,19 +2,16 @@
 
 namespace br\com\rodrigo\biblioteca\entidades
 {
-
 	class Editora extends Pessoa {
 
-		private $Cnpj;
-	
+		private $cnpj;
 
 		public function setCnpj($cnpj) {
-			$this->Cnpj = $cnpj;
+			$this->cnpj = $cnpj;
 		}
 	
 		public function getCnpj() {
-			return $this->Cnpj;
+			return $this->cnpj;
 		}
-
 	}
 }

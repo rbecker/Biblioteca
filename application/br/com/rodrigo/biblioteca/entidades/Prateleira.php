@@ -7,6 +7,8 @@ namespace br\com\rodrigo\biblioteca\entidades
 
 		private $id;
 		private $posicao;
+		private $livros;
+		private $genero;
 
 
 		public function setId($id) {
@@ -24,6 +26,21 @@ namespace br\com\rodrigo\biblioteca\entidades
 		public function getPosicao() {
 			return $this->posicao;
 		}
+		public function setLivros($livros) {
+				$this->livros = $livros;
+		}
+
+		public function getLivros() {
+			return $this->livros;
+		}
+		public function setGenero($genero) {
+				$this->genero = $genero;
+		}
+
+		public function getGenero() {
+			return $this->genero;
+		}
+		
 
 
 	}
